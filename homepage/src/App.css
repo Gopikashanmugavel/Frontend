@@ -232,7 +232,7 @@ h2 {
  
 }
 
-/* General Styles for the section */
+
 .how-it-works {
   text-align: left;
   padding: 20px;
@@ -245,14 +245,14 @@ h2 {
   left: 15%;
 }
 
-/* Styles for the item container */
+
 .how-it-works-item {
   position: relative;
   display: inline-block;
   margin-top: 20px;
 }
 
-/* Style for the first image */
+
 .how-it-works-item .clsfirstimg {
   max-width:358px;
   height: 170px;
@@ -260,7 +260,7 @@ h2 {
   border-radius: 8px;
 }
 
-/* Style for the second image with overlapping effect */
+
 .how-it-works-item .clssecondimg {
   position: absolute;
   top: 50%;
@@ -273,7 +273,6 @@ h2 {
   z-index: 1;
 }
 
-/* Style for the third image with overlapping effect */
 .how-it-works-item .clsthridimg {
   position: absolute;
   top: 50%;
@@ -283,7 +282,7 @@ h2 {
   height: 24px;
   z-index: 2;
 }
-/* General Styles for the section */
+
 .trending {
   text-align: left;
   padding: 20px;
@@ -296,170 +295,13 @@ h2 {
   color: #333;
 }
 
-/* Styles for the item container */
+
 .trending-item {
   position: relative;
   display: inline-block;
   width: 100%;
-  max-width: 600px; /* Adjust this value as needed */
+  max-width: 600px; 
   margin: 0 auto;
 }
 
-/* Style for the first image */
-.trending-item .first {
-  width: 358px;
-  height: auto;
-  display: block;
-  border-radius: 8px;
-}
 
-/* Style for the second image with overlay effect */
-.trending-item .second {
-  position: absolute;
-  top: 20%; /* Adjust as needed */
-  left: 15%; /* Adjust as needed */
-  transform: translate(-50%, -50%);
-  max-width: 60%; /* Adjust as needed */
-  height: auto;
-  z-index: 1;
-}
-.trending-item .thrid {
-  position: absolute;
-  top: 20%; /* Adjust as needed */
-  left: 25%; /* Adjust as needed */
-  transform: translate(-50%, -50%);
-  max-width: 60%; /* Adjust as needed */
-  height: auto;
-  z-index: 1;
-}
-.trending-item .fourth {
-  position: absolute;
-  top: 20%; /* Adjust as needed */
-  left: 32%; /* Adjust as needed */
-  transform: translate(-50%, -50%);
-  max-width: 60%; /* Adjust as needed */
-  height: auto;
-  z-index: 1;
-}
-.trending-item .fifth {
-  position: absolute;
-  top: 30%; /* Adjust as needed */
-  left: 32%; /* Adjust as needed */
-  transform: translate(-50%, -50%);
-  max-width: 60%; /* Adjust as needed */
-  height: auto;
-  z-index: 1;
-}
-.trending-item .sixth {
-  position: absolute;
-  top: 43%; /* Adjust as needed */
-  left: 30%; /* Adjust as needed */
-  transform: translate(-50%, -50%);
-  max-width: 60%; /* Adjust as needed */
-  height: auto;
-  z-index: 1;
-}
-.trending-item .seven {
-  position: absolute;
-  top: 70%; /* Adjust as needed */
-  left: 67%; /* Adjust as needed */
-  transform: translate(-50%, -50%);
-  max-width: 60%; /* Adjust as needed */
-  height: auto;
-  z-index: 1;
-}
-.trending-item .eigth {
-  position: absolute;
-  top: 68%; /* Adjust as needed */
-  left: 80%; /* Adjust as needed */
-  transform: translate(-50%, -50%);
-  max-width: 60%; /* Adjust as needed */
-  height: auto;
-  z-index: 1;
-}
-.trending-item .nine {
-  position: absolute;
-  top: 75%; /* Adjust as needed */
-  left: 84%; /* Adjust as needed */
-  transform: translate(-50%, -50%);
-  max-width: 60%; /* Adjust as needed */
-  height: auto;
-  z-index: 1;
-}
-.trending-item .ten {
-  position: absolute;
-  top: 86%; /* Adjust as needed */
-  left: 45%; /* Adjust as needed */
-  transform: translate(-50%, -50%);
-  max-width: 60%; /* Adjust as needed */
-  height: auto;
-  z-index: 1;
-}
-/* General Styles for the section */
-.offers {
-  text-align: center;
-  padding: 20px;
-  background-color: #ffffff;
-}
-
-.offers h2 {
-  font-size: 2em;
-  margin-bottom: 20px;
-  color: #333;
-}
-
-/* Styles for the item container */
-.offers-item {
-  position: relative;
-  display: inline-block;
-  width: 100%;
-  max-width: 600px; /* Adjust this value as needed */
-  margin: 0 auto;
-}
-
-/* Style for the first image */
-.offers-item .first {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 8px;
-}
-
-/* Style for the second image with overlay effect */
-.offers-item .second {
-  position: absolute;
-  top: 25%; /* Adjust as needed */
-  left: 45%; /* Adjust as needed */
-  transform: translate(-50%, -50%);
-  max-width: 80%; /* Adjust as needed */
-  height: auto;
-  z-index: 1;
-  
-}
-.offers-item .thrid {
-  position: absolute;
-  top: 50%; /* Adjust as needed */
-  left: 45%; /* Adjust as needed */
-  transform: translate(-50%, -50%);
-  max-width: 80%; /* Adjust as needed */
-  height: auto;
-  z-index: 1;
-}
-.offers-item .fourth {
-  position: absolute;
-  top: 70%; /* Adjust as needed */
-  left: 35%; /* Adjust as needed */
-  transform: translate(-50%, -50%);
-  max-width: 80%; /* Adjust as needed */
-  height: auto;
-  z-index: 1;
-}
-.offers-item .fifth {
-  position: absolute;
-  top: 70%; /* Adjust as needed */
-  left: 65%; /* Adjust as needed */
-  transform: translate(-50%, -50%);
-  max-width: 80%; /* Adjust as needed */
-  height: auto;
-  z-index: 1;
-}
