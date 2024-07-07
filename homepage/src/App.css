@@ -232,7 +232,7 @@ h2 {
  
 }
 
-
+/* General Styles for the section */
 .how-it-works {
   text-align: left;
   padding: 20px;
@@ -245,14 +245,14 @@ h2 {
   left: 15%;
 }
 
-
+/* Styles for the item container */
 .how-it-works-item {
   position: relative;
   display: inline-block;
   margin-top: 20px;
 }
 
-
+/* Style for the first image */
 .how-it-works-item .clsfirstimg {
   max-width:358px;
   height: 170px;
@@ -260,7 +260,7 @@ h2 {
   border-radius: 8px;
 }
 
-
+/* Style for the second image with overlapping effect */
 .how-it-works-item .clssecondimg {
   position: absolute;
   top: 50%;
@@ -273,6 +273,7 @@ h2 {
   z-index: 1;
 }
 
+/* Style for the third image with overlapping effect */
 .how-it-works-item .clsthridimg {
   position: absolute;
   top: 50%;
@@ -280,9 +281,9 @@ h2 {
   transform: translate(-50%, -50%);
   max-width: 20%;
   height: 24px;
-  z-index: 2;
+  z-index:2;
 }
-
+/* General Styles for the section */
 .trending {
   text-align: left;
   padding: 20px;
@@ -295,13 +296,12 @@ h2 {
   color: #333;
 }
 
-
+/* Styles for the item container */
 .trending-item {
   position: relative;
   display: inline-block;
   width: 100%;
-  max-width: 600px; 
+  max-width: 600px; /* Adjust this value as needed */
   margin: 0 auto;
 }
-
 
